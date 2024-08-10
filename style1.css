@@ -1,0 +1,278 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: 400;    
+    font-weight: bold;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Md.woff2)
+}
+@font-face {
+    font-family: 'Netflix Sans2';
+    font-weight: 400;    
+    font-weight: bold;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Bd.woff2)
+}
+
+@font-face {
+    font-family: 'Netflix Sans1';
+    font-weight: 400;    
+    font-weight: bold;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Rg.woff2)
+}
+
+@font-face {
+    font-family: 'Netflix Sans3';
+    font-weight: 400;    
+    font-weight: bold;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Blk.woff2)
+}
+
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(AZ-en-20240715-POP_SIGNUP_TWO_WEEKS-perspective_WEB_50090c5c-eab6-4ad6-a47b-ce770fa40d94_large.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+
+.container{
+
+}
+
+.layer{
+    position: absolute;
+    background: #0000005c;
+    width: 100%;
+    height: 1000px;
+    z-index: -1;
+}
+
+
+.container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+
+}
+
+
+.logo{
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: 150px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.logo img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.sign_up_frame{
+    position: absolute;
+    top: 20vh;
+    background: rgba(0, 0, 0, 0.729);
+    width: 314px;
+    height: 644px;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 68px;
+
+}
+
+
+.sign_h1{
+    color: white;
+    font-family: "Netflix Sans2";
+}
+
+
+
+.email{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+}
+
+.email_input{
+    display: flex;
+    text-align: left;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    color: rgb(137, 137, 137);
+    border:1px solid rgb(94, 94, 94);
+    border-radius: 4px;
+    background-color: rgba(25, 25, 25, 0.651);
+    padding: 5px 13px;
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+
+}
+
+
+.password{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    width: 100%;
+
+}
+
+.password_input{
+    display: flex;
+    text-align: left;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    color: rgb(137, 137, 137);
+    border:1px solid rgb(94, 94, 94);
+    border-radius: 4px;
+    background-color: rgba(25, 25, 25, 0.651);
+    padding: 5px 13px ;
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+
+}
+
+
+.sign_in{
+    margin-top: 15px;
+    display: flex;
+    color: white;
+    background: rgb(229, 9, 20);
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Netflix Sans";
+    font-size: 14px;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+
+.sign_in:hover{
+    background: rgb(163, 5, 13);
+    transition: background-color 0.5s;
+}
+
+.middle_text{
+    margin-top: 15px;
+    text-align: center;
+    color: #FFFFFFB2;
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+}
+
+.sign_in_code{
+    margin-top: 15px;
+    display: flex;
+    color: white;
+    background: rgba(77, 77, 77, 0.637);
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: "Netflix Sans";
+    font-size: 14px;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+
+.sign_in_code:hover{
+    background: rgba(54, 54, 54, 0.555);
+    transition: background-color 0.5s;
+}
+
+
+
+.fpassword{
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(184, 184, 184);
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+    text-decoration: none;
+}
+.fpassword:hover{
+    text-decoration: underline;
+    color: rgb(101, 101, 101);
+
+
+}
+
+
+.checkbox{
+    margin-top: 25px;
+    color: white;
+    font-family: "Netflix Sans1",sans-serif;
+    font-size: 1em;
+}
+
+
+.h1_end1{
+    margin-top: 25px;
+    color: #ffffffb2;
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+}
+
+
+.h1_end1 span a{
+    color: white;
+    font-family: "Netflix Sans3";
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.h1_end1 span a:hover{
+    text-decoration: underline;
+}
+
+
+.h1_end2{
+    margin-top: 25px;
+    color: #FFFFFFB3;
+    font-family: "Netflix Sans1";
+    font-size: 0.8em;
+}
+
+
+.h1_end2 span{
+    margin-top: 25px;
+    color: rgb(0, 13, 255);
+    font-family: "Netflix Sans1";
+    font-size: 1em;
+    text-decoration: none;
+
+}
+
+.h1_end2 span:hover{
+    text-decoration: underline;
+
+}
+
+
